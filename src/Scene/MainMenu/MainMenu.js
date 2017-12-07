@@ -2,7 +2,7 @@
  * Created by rayootech on 2017/12/5.
  */
 
-var MMMainScene = cc.Scene.extend({
+var MainMenuScene = cc.Scene.extend({
     ctor: function () {
         this._super();
         cc.audioEngine.playMusic(res.sd_mm_BGMusic_mp3, true);

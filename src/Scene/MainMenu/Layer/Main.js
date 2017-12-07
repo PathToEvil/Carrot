@@ -41,6 +41,7 @@ var MMMainLayer = cc.Layer.extend({
         var startDisabled = new cc.Sprite(res.front_btn_start_normal_png);
         var start = new cc.MenuItemSprite(startNormal, startPress, startDisabled, function () {
             cc.audioEngine.playEffect(res.sd_mm_Select_mp3);
+            cc.director.runScene(new ChooseLevelScene());
         });
         start.setPosition(cc.winSize.width / 2 - 8, cc.winSize.height / 2 + 75);
         //天天向上按钮
