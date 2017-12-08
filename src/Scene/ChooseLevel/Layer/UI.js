@@ -89,7 +89,7 @@ var CLUILayer = cc.Layer.extend({
             }
         }, this);
         //折扣显示
-        var text = new ccui.TextBMFont("8", "res/ChooseLevel/discount.fnt");
+        var text = new ccui.TextBMFont("8", res.discount_fnt);
         this.discountText = text;
         button.addChild(text);
         text.setAnchorPoint(0, 0);
@@ -106,7 +106,7 @@ var CLUILayer = cc.Layer.extend({
         bg.addChild(star);
         star.setPosition(150, 50);
 
-        var num = new ccui.TextBMFont("010", "res/ChooseLevel/discount.fnt");
+        var num = new ccui.Text("010", "Arial", 32);
         star.addChild(num);
         num.setAnchorPoint(0, 0.5);
         num.setPosition(190, 78);

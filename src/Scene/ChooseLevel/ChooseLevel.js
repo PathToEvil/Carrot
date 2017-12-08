@@ -10,8 +10,12 @@ var ChooseLevelScene = cc.Scene.extend({
     },
     onEnter: function () {
         this._super();
+        this.loadResource();
         this.loadBackgroundLayer();
         this.loadUILayer();
+    },
+    loadResource: function () {
+        cc.spriteFrameCache.addSpriteFrames(res.cl_route_plist, res.cl_route_png);
     },
     loadBackgroundLayer: function () {
         this.backgroundLayer = new CLBackgroundLayer();

@@ -24,10 +24,16 @@ var res = {
     front_smoke_2_png: "res/MainMenu/front_smoke_2.png",
     front_smoke_3_png: "res/MainMenu/front_smoke_3.png",
     unlock_floor_png: "res/MainMenu/unlock_floor.png",
+    cl_route_plist: "res/ChooseLevel/route.plist",
+    cl_route_png: "res/ChooseLevel/route.png",
     /*音频*/
     sd_mm_BGMusic_mp3: "res/Sound/MainMenu/BGMusic.mp3",
     sd_mm_Select_mp3: "res/Sound/MainMenu/Select.mp3",
-    sd_mm_Unlock_mp3: "res/Sound/MainMenu/Unlock.mp3"
+    sd_mm_Unlock_mp3: "res/Sound/MainMenu/Unlock.mp3",
+    discount_fnt: "res/ChooseLevel/discount.fnt",
+    discount_png: "res/ChooseLevel/discount.png",
+    TiledMap_tmx: "res/ChooseLevel/Map/TiledMap.tmx"
+    
 };
 
 var g_resources = [];
